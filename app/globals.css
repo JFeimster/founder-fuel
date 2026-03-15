@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #f7f3ea;
+  --ink: #0b0b0b;
+  --acid: #f4e409;
+  --blush: #ff6b6b;
+  --cyan: #5ee6ff;
+  --mint: #9cff8f;
+  --lilac: #c7b8ff;
+  --border: 3px solid var(--ink);
+  --shadow: 8px 8px 0 0 var(--ink);
+  --shadow-sm: 4px 4px 0 0 var(--ink);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background: var(--acid);
+  color: var(--ink);
+}
+
+a,
+button,
+summary,
+input,
+textarea,
+select {
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--acid);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 1rem;
+  z-index: 100;
+  background: white;
+  border: var(--border);
+  box-shadow: var(--shadow-sm);
+  padding: 0.75rem 1rem;
+  font-weight: 700;
+}
+
+.skip-link:focus {
+  left: 1rem;
+}
+
+.brutal-card {
+  border: var(--border);
+  box-shadow: var(--shadow);
+  border-radius: 1.1rem;
+}
+
+.brutal-card-sm {
+  border: var(--border);
+  box-shadow: var(--shadow-sm);
+  border-radius: 1rem;
+}
+
+.brutal-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: var(--border);
+  box-shadow: var(--shadow-sm);
+  border-radius: 999px;
+  padding: 0.9rem 1.15rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.brutal-btn:hover,
+.brutal-btn:focus-visible {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow);
+}
+
+.brutal-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+}
+
+.grid-shell {
+  @apply mx-auto max-w-content px-4 sm:px-6 lg:px-8;
+}
+
+.kicker {
+  @apply inline-flex items-center gap-2 rounded-full border-[3px] border-ink bg-white px-3 py-1 text-xs font-black uppercase tracking-[0.12em];
+}
+
+.display-title {
+  font-family: Arial Black, Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 0.92;
+  letter-spacing: -0.04em;
+}
+
+.editorial-copy {
+  @apply text-base leading-7 text-ink/80 md:text-lg;
+}
+
+.section-space {
+  @apply py-14 md:py-20;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+.table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 760px;
+}
+
+.table-wrap th,
+.table-wrap td {
+  border: 3px solid var(--ink);
+  padding: 0.95rem;
+  vertical-align: top;
+  text-align: left;
+}
+
+.table-wrap th {
+  background: white;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.prose-tight > * + * {
+  margin-top: 0.9rem;
+}
+
+.input-shell {
+  @apply brutal-card-sm bg-white p-3;
+}
+
+.marquee-note {
+  border-top: var(--border);
+  border-bottom: var(--border);
+  background: var(--acid);
+  padding: 0.7rem 0;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "slug": "issue-01-bankable-is-not-a-personality-trait",
+    "issueLabel": "Issue 01",
+    "title": "Bankable Is Not a Personality Trait",
+    "description": "A set of stories for founders learning how qualification actually works in the first year of business.",
+    "storySlugs": [
+      "startup-funding-no-revenue",
+      "startup-funding-by-stage",
+      "business-credit-for-startups"
+    ]
+  },
+  {
+    "slug": "issue-02-dont-let-bad-money-pose-as-help",
+    "issueLabel": "Issue 02",
+    "title": "Do Not Let Bad Money Pose as Help",
+    "description": "A collection focused on funding mistakes, weak-fit capital, and how founders can protect runway under pressure.",
+    "storySlugs": [
+      "startup-funding-mistakes",
+      "bad-credit-startup-funding",
+      "predatory-lender-warnings"
+    ]
+  }
+]

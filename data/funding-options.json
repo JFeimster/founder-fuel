@@ -1,0 +1,113 @@
+[
+  {
+    "slug": "credit-stacking",
+    "name": "Credit Stacking",
+    "keyword": "credit stacking for startups",
+    "stage": "Best for founders with strong personal credit",
+    "summary": "A personal-credit-led strategy used to assemble multiple credit lines or 0% cards to create startup runway when the business is too early for conventional lending.",
+    "headline": "Useful when personal credit is strong and the founder is disciplined enough to manage it.",
+    "explainer": "Credit stacking is not magic and it is not free money. It can create flexible working capital early, but it shifts risk onto the founder and demands tight balance management.",
+    "fitSignals": [
+      "Personal credit is strong and recent utilization is controlled.",
+      "The business has a specific use of funds with a payoff timeline.",
+      "The founder understands repayment pressure and cash discipline."
+    ],
+    "advantages": [
+      "Can be one of the fastest early-stage runway tools.",
+      "Useful when the business has potential but thin operating history.",
+      "Can support inventory, launch costs, and selective growth moves."
+    ],
+    "risks": [
+      "Personal exposure is real and easy to underestimate.",
+      "High utilization can reduce future flexibility.",
+      "Bad use-of-funds planning turns this into expensive chaos."
+    ],
+    "speed": "Fast",
+    "tradeoff": "Personal risk and utilization management",
+    "bankabilityNote": "May buy time and operating power, but does not replace business maturity.",
+    "useCases": [
+      "Launching with a tight, time-bound operating plan",
+      "Funding initial inventory or equipment carefully",
+      "Bridging to better qualification later"
+    ],
+    "relatedLinks": [
+      { "label": "Read the flagship guide", "href": "/startup-funding/" },
+      { "label": "Read funding mistakes", "href": "/insights/startup-funding-mistakes/" },
+      { "label": "Apply for a reality check", "href": "/apply/" }
+    ]
+  },
+  {
+    "slug": "revenue-based-financing",
+    "name": "Revenue-Based Financing",
+    "keyword": "revenue based financing for startups",
+    "stage": "Best for startups with real sales momentum",
+    "summary": "A financing path tied to revenue performance, often used by ecommerce or service businesses with consistent deposits, processor data, and a clear growth use case.",
+    "headline": "Works better when revenue is real, visible, and steady enough to support repayment.",
+    "explainer": "Revenue-based financing can be a fit for founders with actual traction who need speed, but it requires sober math. It is not a cure for weak margins or unstable cash flow.",
+    "fitSignals": [
+      "Consistent revenue and processor or bank statement history",
+      "A use of funds connected to measurable growth",
+      "Gross margin strong enough to absorb repayment drag"
+    ],
+    "advantages": [
+      "Can move faster than traditional lenders.",
+      "Often fits ecommerce and digital service businesses better than banks do.",
+      "Uses traction signals instead of waiting for years of history."
+    ],
+    "risks": [
+      "Repayment pressure can choke cash flow if growth assumptions are soft.",
+      "Founders often underestimate how fast capital disappears when margins are thin.",
+      "Expensive capital used for weak offers usually compounds the problem."
+    ],
+    "speed": "Medium",
+    "tradeoff": "Revenue drag and margin sensitivity",
+    "bankabilityNote": "Helpful for growth-stage execution, but not a substitute for financial hygiene.",
+    "useCases": [
+      "Scaling inventory that already turns well",
+      "Funding acquisition with proven payback math",
+      "Bridging seasonal cash flow in a predictable business"
+    ],
+    "relatedLinks": [
+      { "label": "See all funding options", "href": "/funding-options/" },
+      { "label": "Read funding by stage", "href": "/insights/startup-funding-by-stage/" },
+      { "label": "Apply for a reality check", "href": "/apply/" }
+    ]
+  },
+  {
+    "slug": "microloans-grants",
+    "name": "Microloans + Grants",
+    "keyword": "microloans for startups",
+    "stage": "Best for very early founders and community-backed ventures",
+    "summary": "Smaller-check funding paths that can work earlier than banks for founders with limited history, especially when paired with local programs, incubators, or mission-aligned support.",
+    "headline": "Lower-check, slower-moving paths that can be more realistic than headline-grabbing capital.",
+    "explainer": "Microloans and grants rarely feel glamorous, but they often fit founders who need credibility, documentation, and breathing room more than massive capital.",
+    "fitSignals": [
+      "Early-stage founder with light or inconsistent revenue",
+      "Business can document use of funds clearly",
+      "The founder is willing to navigate applications and local ecosystems"
+    ],
+    "advantages": [
+      "Can be more accessible than traditional lending.",
+      "Often comes with ecosystem support or education.",
+      "Helpful for building documents, discipline, and lender readiness."
+    ],
+    "risks": [
+      "Application cycles can be slow.",
+      "Check sizes may be smaller than the founder wants.",
+      "Requirements vary widely across programs."
+    ],
+    "speed": "Slow to medium",
+    "tradeoff": "More paperwork and smaller amounts",
+    "bankabilityNote": "Strong for credibility building and profile development.",
+    "useCases": [
+      "Pilot-stage operators who need a first capital win",
+      "Service businesses building operating history",
+      "Founders seeking non-dilutive or lower-pressure capital"
+    ],
+    "relatedLinks": [
+      { "label": "Read no-revenue funding", "href": "/insights/startup-funding-no-revenue/" },
+      { "label": "Go to the flagship guide", "href": "/startup-funding/" },
+      { "label": "Apply for a reality check", "href": "/apply/" }
+    ]
+  }
+]

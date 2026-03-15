@@ -1,0 +1,38 @@
+{
+  "brand": {
+    "name": "Founder Fuel",
+    "tagline": "Startup funding without the bank fairytale",
+    "positioning": "A founder-native editorial platform for realistic startup funding paths in the first 24 months.",
+    "voice": [
+      "honest",
+      "anti-hype",
+      "practical",
+      "founder-native",
+      "slightly contrarian",
+      "anti-gatekeeper"
+    ]
+  },
+  "cta": {
+    "primary": {
+      "label": "Apply for a funding reality check",
+      "href": "/apply/"
+    },
+    "secondary": {
+      "label": "Read the startup funding guide",
+      "href": "/startup-funding/"
+    }
+  },
+  "nav": {
+    "main": [
+      { "label": "Startup Funding", "href": "/startup-funding/" },
+      { "label": "Funding Options", "href": "/funding-options/" },
+      { "label": "Insights", "href": "/insights/" },
+      { "label": "Issues", "href": "/issues/" },
+      { "label": "About", "href": "/about/" }
+    ]
+  },
+  "seo": {
+    "defaultTitle": "Founder Fuel",
+    "defaultDescription": "Founder-native education for startup business funding, no-revenue funding paths, business credit, and realistic qualification planning."
+  }
+}

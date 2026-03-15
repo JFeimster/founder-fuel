@@ -1,0 +1,158 @@
+[
+  {
+    "slug": "startup-funding-no-revenue",
+    "title": "Startup Funding With No Revenue: What Is Actually Realistic?",
+    "excerpt": "If your startup has no revenue, your funding path is probably narrower than the internet makes it sound. Here is what is actually realistic and what usually is not.",
+    "category": "No-Revenue Funding",
+    "readTime": "7 min read",
+    "featured": true,
+    "tags": ["startup funding no revenue", "grants", "crowdfunding"],
+    "sections": [
+      {
+        "heading": "The real problem",
+        "paragraphs": [
+          "No-revenue startups are usually trying to solve a profile mismatch with confidence. Traditional lenders care about repayment evidence, not founder enthusiasm.",
+          "That does not mean there are zero options. It means the options shift toward personal leverage, grants, crowdfunding, ecosystem support, or deliberate setup moves that improve future qualification."
+        ]
+      },
+      {
+        "heading": "What tends to be more realistic",
+        "paragraphs": [
+          "Non-dilutive sources, community-backed programs, and carefully managed personal-credit-led runway are usually more realistic than generic business loans.",
+          "The key is knowing whether you need capital, proof, or better preparation first."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      { "label": "Microloans + grants", "href": "/funding-options/microloans-grants/" },
+      { "label": "Startup funding guide", "href": "/startup-funding/" },
+      { "label": "Apply", "href": "/apply/" }
+    ]
+  },
+  {
+    "slug": "startup-funding-mistakes",
+    "title": "7 Startup Funding Mistakes That Burn Founders Early",
+    "excerpt": "Most bad capital decisions are not caused by bad intentions. They come from stage confusion, pressure, and chasing the wrong money for the wrong reason.",
+    "category": "Funding Mistakes",
+    "readTime": "8 min read",
+    "featured": true,
+    "tags": ["startup funding mistakes", "qualification", "cash flow"],
+    "sections": [
+      {
+        "heading": "Mistake one: solving the wrong problem",
+        "paragraphs": [
+          "Some founders need margin repair, not capital. Others need proof, not debt. Capital cannot rescue a model that does not convert or a business that cannot explain where the money goes.",
+          "The earlier the business, the more important it is to define the use of funds in plain language."
+        ]
+      },
+      {
+        "heading": "Mistake two: forcing bank logic on a startup-stage business",
+        "paragraphs": [
+          "The bank rejection is often not a personal insult. It is just a stage mismatch. Good founders lose time when they keep trying to force a traditional path before the profile is ready."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      { "label": "Credit stacking", "href": "/funding-options/credit-stacking/" },
+      { "label": "Apply", "href": "/apply/" },
+      { "label": "Funding options hub", "href": "/funding-options/" }
+    ]
+  },
+  {
+    "slug": "startup-funding-by-stage",
+    "title": "Startup Funding by Stage: 0 to 24 Months",
+    "excerpt": "The best funding option changes as the company moves from setup to proof to operational maturity. This article maps what usually fits at each phase.",
+    "category": "By Stage",
+    "readTime": "6 min read",
+    "featured": true,
+    "tags": ["startup funding by stage", "business credit for startups", "microloans"],
+    "sections": [
+      {
+        "heading": "Months 0 to 6",
+        "paragraphs": [
+          "This stage is about setup, proof, and discipline. Many founders need to slow down and create cleaner financial structure before they chase any capital path aggressively."
+        ]
+      },
+      {
+        "heading": "Months 6 to 24",
+        "paragraphs": [
+          "This is where founder behavior starts to matter in underwriter language. Revenue consistency, business bank movement, bookkeeping, and use-of-funds clarity all get more important."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      { "label": "Revenue-based financing", "href": "/funding-options/revenue-based-financing/" },
+      { "label": "Startup funding guide", "href": "/startup-funding/" },
+      { "label": "Apply", "href": "/apply/" }
+    ]
+  },
+  {
+    "slug": "bad-credit-startup-funding",
+    "title": "Bad Credit Startup Funding: What Founders Should Know Before Applying",
+    "excerpt": "Bad credit does not automatically end the search for capital, but it changes which routes are worth your time and which offers deserve skepticism.",
+    "category": "Credit Reality",
+    "readTime": "7 min read",
+    "featured": false,
+    "tags": ["bad credit startup funding", "secured funding", "microloans"],
+    "sections": [
+      {
+        "heading": "What changes with weaker credit",
+        "paragraphs": [
+          "Weaker credit does not just change approval odds. It changes pricing, flexibility, and the amount of patience you need.",
+          "Founders with thin or bruised credit often do better by improving setup, seeking smaller community-backed products, or looking at secured structures rather than chasing shiny promises."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      { "label": "Microloans + grants", "href": "/funding-options/microloans-grants/" },
+      { "label": "Apply", "href": "/apply/" },
+      { "label": "Insights", "href": "/insights/" }
+    ]
+  },
+  {
+    "slug": "business-credit-for-startups",
+    "title": "Business Credit for Startups: Build Readiness Before You Need It",
+    "excerpt": "Business credit is less about hacks and more about sequence, consistency, and credibility. Here is how early-stage founders should think about it.",
+    "category": "Business Credit",
+    "readTime": "9 min read",
+    "featured": true,
+    "tags": ["business credit for startups", "credit building", "qualification"],
+    "sections": [
+      {
+        "heading": "What founders misunderstand",
+        "paragraphs": [
+          "Business credit is not a costume change. Registering the entity is not the same as becoming fundable. Issuers care about profile quality, operating behavior, and a coherent business picture.",
+          "Founders who treat business credit as a staged system tend to make better decisions than founders who treat it like a trick."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      { "label": "Credit stacking", "href": "/funding-options/credit-stacking/" },
+      { "label": "Startup funding guide", "href": "/startup-funding/" },
+      { "label": "Apply", "href": "/apply/" }
+    ]
+  },
+  {
+    "slug": "predatory-lender-warnings",
+    "title": "Predatory Lender Warnings for Early-Stage Founders",
+    "excerpt": "When the business is stressed and cash is tight, bad capital can look like rescue. This article helps founders recognize the patterns before signing.",
+    "category": "Warnings",
+    "readTime": "5 min read",
+    "featured": false,
+    "tags": ["predatory lender warnings", "revenue based financing", "startup funding mistakes"],
+    "sections": [
+      {
+        "heading": "Warning signs",
+        "paragraphs": [
+          "Guaranteed approvals, vague pricing, pressure-heavy sales language, and weak explanation of repayment mechanics are all red flags.",
+          "Founders should insist on clarity about total cost, repayment structure, use-of-funds fit, and what happens when revenue softens."
+        ]
+      }
+    ],
+    "relatedLinks": [
+      { "label": "Revenue-based financing", "href": "/funding-options/revenue-based-financing/" },
+      { "label": "Funding mistakes", "href": "/insights/startup-funding-mistakes/" },
+      { "label": "Apply", "href": "/apply/" }
+    ]
+  }
+]
