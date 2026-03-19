@@ -53,6 +53,7 @@ All content is local and build-time safe:
 
 - `data/site.json`
 - `data/funding-options.json`
+- `data/solutions.json`
 - `data/posts.json`
 - `data/issues.json`
 - `data/faqs.json`
