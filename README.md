@@ -42,6 +42,8 @@ The exported site will be generated in `out/`.
 - `/insights/[slug]/`
 - `/issues/`
 - `/issues/[slug]/`
+- `/solutions/`
+- `/solutions/[slug]/`
 - `/about/`
 - `/apply/`
 
