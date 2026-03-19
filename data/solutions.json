@@ -1,0 +1,81 @@
+[
+  {
+    "slug": "startup-funding-for-restaurants",
+    "keyword": "startup funding for restaurants",
+    "title": "Startup Funding for Restaurants: What Actually Works Early On",
+    "metaDescription": "Realistic startup funding paths for restaurant founders in the first 24 months. Learn what works, what does not, and how to think before chasing bank debt.",
+    "eyebrow": "Industry funding guide",
+    "heroTitle": "Startup funding for restaurants without the bank fairytale.",
+    "heroDescription": "Restaurant founders get sold a lot of funding mythology. This page breaks down what actually fits early-stage operators, what lenders really care about, and how to think about capital before the business is fully bankable.",
+    "intro": "Restaurants are capital-hungry and margin-sensitive, which makes early funding decisions especially dangerous. The point is not to chase the biggest approval. The point is to choose capital that keeps the operation alive long enough to learn, adapt, and tighten.",
+    "realityChecks": [
+      "Banks usually want a cleaner operating profile than early restaurants can show.",
+      "Fast capital can create repayment pressure before the kitchen finds its rhythm.",
+      "Equipment, buildout, and working capital should not all be solved the same way.",
+      "The best funding move early is often sequencing, not maximizing."
+    ],
+    "sections": [
+      {
+        "heading": "What makes restaurant startup funding hard",
+        "paragraphs": [
+          "Restaurants often need money before they have stable proof. Lease obligations, equipment, hiring, inventory, and buildout costs arrive early, while revenue consistency arrives late.",
+          "That mismatch is why many founders get trapped between undercapitalization and expensive money that punishes them before they stabilize."
+        ]
+      },
+      {
+        "heading": "Funding paths that may fit better",
+        "paragraphs": [
+          "Depending on stage, fit may come from equipment financing, selective personal-credit-led runway, microloans, community-backed programs, or revenue-based products later once the numbers are cleaner.",
+          "The right question is not what can I get approved for. It is what capital matches my timing, margin profile, and operating reality."
+        ]
+      },
+      {
+        "heading": "What founders should pressure-test first",
+        "paragraphs": [
+          "Before chasing money, get clear on what the capital needs to solve. Buildout, equipment, working capital, inventory, and payroll pressure are different problems and should not automatically be financed the same way.",
+          "If the business is still proving demand, smaller staged capital often beats large expensive capital that assumes smooth execution from day one."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can a new restaurant get a business loan?",
+        "answer": "Sometimes, but many early restaurants are not ideal bank candidates yet. Smaller, staged, or asset-backed funding paths are often more realistic."
+      },
+      {
+        "question": "Should restaurant founders use personal credit early?",
+        "answer": "Sometimes, carefully. It can create runway, but it shifts risk onto the founder and should be used with discipline and a clear plan."
+      },
+      {
+        "question": "What funding is often used first for restaurants?",
+        "answer": "Depending on the stage, founders often start with personal capital, selective credit strategies, equipment financing, community-backed programs, or smaller non-bank options before more conventional business capital becomes realistic."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Read the startup funding guide",
+        "href": "/startup-funding/"
+      },
+      {
+        "label": "Explore funding options",
+        "href": "/funding-options/"
+      },
+      {
+        "label": "Read Founder Fuel insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Apply for a funding reality check",
+        "href": "/apply/"
+      }
+    ],
+    "cta": {
+      "title": "Need a realistic funding path for your startup?",
+      "copy": "Use the apply page if you want help filtering funding options by stage, pressure, and actual fit.",
+      "primaryLabel": "Apply now",
+      "primaryHref": "/apply/",
+      "secondaryLabel": "Read funding options",
+      "secondaryHref": "/funding-options/"
+    }
+  }
+]
