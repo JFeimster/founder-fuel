@@ -26,6 +26,7 @@
     "main": [
       { "label": "Startup Funding", "href": "/startup-funding/" },
       { "label": "Funding Options", "href": "/funding-options/" },
+      { "label": "Solutions", "href": "/solutions/" },
       { "label": "Insights", "href": "/insights/" },
       { "label": "Issues", "href": "/issues/" },
       { "label": "About", "href": "/about/" }
