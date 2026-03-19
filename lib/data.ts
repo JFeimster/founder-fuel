@@ -3,12 +3,14 @@ import fundingOptions from "@/data/funding-options.json";
 import posts from "@/data/posts.json";
 import issues from "@/data/issues.json";
 import faqs from "@/data/faqs.json";
+import solutions from "@/data/solutions.json";
 
 export type SiteData = typeof site;
 export type FundingOption = (typeof fundingOptions)[number];
 export type Post = (typeof posts)[number];
 export type Issue = (typeof issues)[number];
 export type FAQ = (typeof faqs)[number];
+export type Solution = (typeof solutions)[number];
 
 export function getSiteData() {
   return site;
@@ -48,4 +50,12 @@ export function getIssues() {
 
 export function getFAQs() {
   return faqs;
+}
+
+export function getSolutions() {
+  return solutions;
+}
+
+export function getSolutionBySlug(slug: string) {
+  return solutions.find((item) => item.slug === slug);
 }
