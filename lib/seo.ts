@@ -5,7 +5,7 @@ type MetadataInput = {
 };
 
 export function buildMetadata({ title, description, path = "/" }: MetadataInput) {
-  const baseUrl = "https://founderfuel.example";
+  const baseUrl = "https://founder-fuel.vercel.app"; // update later to custom domain
   const url = `${baseUrl}${path}`;
 
   return {
