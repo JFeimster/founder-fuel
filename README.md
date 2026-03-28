@@ -1,38 +1,22 @@
 # Founder Fuel
 
-Founder Fuel is a static-first Next.js App Router site for realistic startup funding education and qualified lead capture.
+Founder Fuel is a static-first Next.js App Router site focused on realistic startup funding education and qualified lead capture.
+
+## Live Properties
+
+- Production site: `https://founder-fuel.vercel.app`
+- GitHub repo: `https://github.com/JFeimster/founder-fuel.git`
+- Vercel project: `founder-fuel` (team: `jason-feimsters-projects`)
+- Canonical base URL in code: `https://founder-fuel.vercel.app` (set in `lib/seo.ts`)
 
 ## Stack
 
-- Next.js App Router
-- Static generation only
+- Next.js App Router (static export)
+- React 19
 - Tailwind CSS
-- Repo-local JSON content
-- GitHub → Vercel friendly
+- Local JSON content (`data/*.json`)
 
-## Local development
-
-1. Install dependencies:
-
-```bash
-npm install
-```
-
-2. Start development:
-
-```bash
-npm run dev
-```
-
-3. Build the static site:
-
-```bash
-npm run build
-```
-
-The exported site will be generated in `out/`.
-
-## Route map
+## Route Map
 
 - `/`
 - `/startup-funding/`
@@ -47,9 +31,9 @@ The exported site will be generated in `out/`.
 - `/about/`
 - `/apply/`
 
-## Content model
+## Content Model
 
-All content is local and build-time safe:
+All content is build-time safe and local:
 
 - `data/site.json`
 - `data/funding-options.json`
@@ -58,80 +42,95 @@ All content is local and build-time safe:
 - `data/issues.json`
 - `data/faqs.json`
 
-## Lead capture setup
+Data access helpers live in `lib/data.ts`.
 
-The `/apply/` page is intentionally static. To turn it into production lead capture:
+## Local Development
 
-- Replace the placeholder button with your form provider embed or action.
-- Recommended options:
-  - Tally
-  - Typeform
-  - HubSpot form embed
-  - Beehiiv / ConvertKit form
-- Keep the fields stage-based so qualification stays useful.
+1. Install dependencies:
 
-## GitHub → Vercel deployment
+```bash
+npm install
+```
 
-1. Push this repo to GitHub.
-2. Create a new Vercel project.
-3. Import the GitHub repository.
-4. Framework preset: **Next.js**
-5. Build command: `next build`
-6. Output directory: leave default
-7. Deploy
+2. Start local development:
 
-Because `next.config.mjs` uses `output: "export"`, the site stays static and Vercel-compatible.
+```bash
+npm run dev
+```
 
-## Environment variables
+3. Build static output:
 
-No environment variables are required for the static version.
+```bash
+npm run build
+```
 
-If you later add analytics or form embeds, document new variables here.
+Output is generated in `out/`.
 
-## SEO checklist
+## Quality Checks
 
-- [x] Per-page metadata
-- [x] Canonical URLs
-- [x] Open Graph metadata
-- [x] Strong internal linking between pillar, spokes, hub, and conversion page
-- [x] Keyword-aligned route structure
-- [x] Readable headings and scannable copy
-- [ ] Replace `https://founderfuel.example` in `lib/seo.ts` with your real production domain
-- [ ] Add OG image files in `/public/img` if desired
-- [ ] Submit sitemap through your preferred workflow if added later
+Run before commits and PRs:
 
-## Performance checklist
+```bash
+npm run build
+npm run typecheck
+npm run lint
+```
 
-- [x] Static generation
-- [x] No database calls
-- [x] No runtime API dependencies
-- [x] Minimal dependencies
-- [x] CSS-first interaction patterns
-- [ ] Compress any future images added to `/public`
-- [ ] Add font hosting only if you truly need custom fonts
+Lint is configured via committed ESLint config and should run non-interactively.
 
-## Accessibility checklist
+## Apply Page Policy
 
-- [x] Skip link
-- [x] Semantic sections and navigation
-- [x] Keyboard-visible focus states
-- [x] Sufficient color contrast
-- [x] Reduced-motion fallback
+`/apply/` is intentionally static in this version. It is designed as a qualification-friendly intake placeholder and does not submit to a backend yet.
+
+To activate real intake later:
+
+- connect a form provider (for example Tally, Typeform, HubSpot)
+- keep stage/use-of-funds qualifiers intact
+- avoid changing surrounding trust language and conversion flow without strategy review
+
+## Deployment Workflow (GitHub -> Vercel)
+
+1. Branch from `main`.
+2. Make scoped changes.
+3. Run quality checks.
+4. Open PR to `main`.
+5. Merge PR.
+6. Confirm the matching Vercel production deployment is `READY`.
+
+## Repo Sync Workflow
+
+Use this when local copies drift from GitHub/Vercel:
+
+1. Fresh clone from `main`.
+2. Compare local working files to clone.
+3. Migrate only intended deltas.
+4. Commit and open PR.
+5. Validate deployed output after merge.
+
+This avoids silently treating non-git local folders as source-of-truth.
 
 ## Troubleshooting
 
-### Build fails on JSON imports
-Make sure `resolveJsonModule` stays enabled in `tsconfig.json`.
+### `next lint` prompts for setup
 
-### Static export breaks after adding new features
-Avoid server actions, API routes, middleware, and runtime-only features. This project is static-first by design.
+ESLint config or dependencies are missing. Ensure:
 
-### Metadata canonical domain is wrong
-- Update the base URL in `lib/seo.ts`. The placeholder `https://founderfuel.example` must be replaced with your real production domain before launch.
+- `.eslintrc.json` exists
+- `eslint` and `eslint-config-next` are installed in `devDependencies`
 
-### Apply form does not submit
-- That is expected in the starter version. Connect a form provider or embed on `/apply/`, and wire the button or form action to your real endpoint before going live.
+### Static export breaks
 
-## Strategy file
+This project is static-first. Avoid adding runtime-only features unless explicitly planned:
 
-See `docs/strategy.md` for the full brand naming, IA, content strategy, design system, page blueprints, and build plan.
+- API routes
+- server actions tied to runtime services
+- middleware-dependent flows
+
+### Metadata/canonical mismatch
+
+Update `baseUrl` in `lib/seo.ts` only when a real production domain change is complete.
+
+## Strategy Docs
+
+- Current execution strategy: `docs/strategy.md`
+- Historical ideation blueprint: `docs/strategy.blueprint.md`
